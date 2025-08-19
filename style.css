@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: #0d1117;
+  color: #f5f5f5;
+  line-height: 1.6;
+}
+
+/* Navbar */
+header {
+  background: #161b22;
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav h2 {
+  color: #58a6ff;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+nav ul li a {
+  color: #f5f5f5;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #58a6ff;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 2rem;
+}
+
+.hero img {
+  width: 150px;
+  border-radius: 50%;
+  border: 3px solid #58a6ff;
+  margin-bottom: 1rem;
+}
+
+.hero h1 span {
+  color: #58a6ff;
+}
+
+.typing {
+  font-size: 1.2rem;
+  color: #9cdcfe;
+  margin-top: 10px;
+  height: 30px;
+}
+
+/* Sections */
+section {
+  padding: 2rem;
+  text-align: center;
+}
+
+.skills, .badges {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+section h2 {
+  margin-bottom: 1rem;
+  color: #58a6ff;
+}
+
+/* Footer */
+footer {
+  background: #161b22;
+  padding: 1rem;
+  text-align: center;
+  margin-top: 2rem;
+}
