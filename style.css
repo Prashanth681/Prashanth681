@@ -67,7 +67,7 @@ nav ul li a:hover {
   font-size: 1.2rem;
   color: #9cdcfe;
   margin-top: 10px;
-  height: 30px;
+  min-height: 30px;
 }
 
 /* Sections */
@@ -88,10 +88,46 @@ section h2 {
   color: #58a6ff;
 }
 
+#about ul {
+  display: inline-block;
+  text-align: left;
+  list-style-position: inside;
+  padding-left: 1rem;
+}
+
 /* Footer */
 footer {
   background: #161b22;
   padding: 1rem;
   text-align: center;
   margin-top: 2rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .hero {
+    padding: 1.5rem 1rem;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero h3 {
+    font-size: 1rem;
+  }
+
+  section {
+    padding: 1.5rem 1rem;
+  }
+
+  #about ul li {
+    font-size: 0.9rem;
+  }
 }
